@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@300&display=swap');
+body
+{
+    display: block;
+    font-family: 'PT Serif', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    background: linear-gradient(to left, #159957,#155799) ;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 20px;
+}
+footer {
+    font-size: 10px; 
+    position: absolute; 
+    bottom: 0; 
+    right: 50px; 
+    width: 100px; 
+    text-align:right;
+}
