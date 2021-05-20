@@ -41,7 +41,7 @@ p{
         }
 
 .Hex p {
-    padding: 7px;
+    padding: 2px;
     background-color: blanchedalmond;
 }
 .Hex ::selection {
