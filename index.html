@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="/css/color.css">
+    <link rel="icon" href="/assets/favicon.png" type="image/jpg">
+</head>
+<body id="body" style="overflow-x: hidden;" oncontextmenu="return false">
+    <header>
+        <div class="logo"><img src="/assets/logo_transparent.png">
+        </div>
+    </header>
+    <section class="section">
+    <h1 style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">Gradient Generator</h1>
+    <input class="color1" type="color" name="color1" value="#642B73" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;" oninput="myFunction()">
+    <input class="color2" type="color" name="color2" value="#C6426E" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;" oninput="myFunction()">
+    <h2 style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">Current CSS Background</h2>
+    <br>
+    <div id="demo" style="background-color: aliceblue;">Default code is: linear-gradient(to right, rgb(96, 37, 111), rgb(198, 66, 110));</div>
+    <br>
+    <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">RGB Code is: </div>
+    
+    <div class="RGB"><h3></h3></div>
+    
+    <div style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  "
+    oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">Hex Code is: </div>
+    
+    <div class="Hex"><p></p></div>
+    </section>
+    <footer style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;  " oncontextmenu="return false" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+        <p>
+            <a href="https://www.mehulgarg.me/">
+                Made with ❤️ by 
+                <br> 
+                ©2021 Mehul Garg. 
+                <br> 
+                All Right Reserved.
+            </a>
+        </p>
+    </footer>
+<script type="text/javascript" src="/js/color.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: block;
+    font-family: 'PT Serif', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(96, 37, 111), rgb(198, 66, 110));
+}
+section{
+    padding: 10%;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+p{
+    font-size: 20px;
+}
+
+.RGB h3{
+    padding: 7px;
+    background-color: blanchedalmond;
+}
+.RGB ::selection {
+        color: rgb(39, 37, 39);
+        background: yellow;
+        }   
+.RGB::-moz-selection{
+        color: rgb(39, 37, 39);
+        background: yellow;
+        }
+
+.Hex p {
+    padding: 7px;
+    background-color: blanchedalmond;
+}
+.Hex ::selection {
+        color: rgb(39, 37, 39);
+        background: yellow;
+        } 
+.Hex::-moz-selection{
+        color: rgb(39, 37, 39);
+        background: yellow;
+        } 
+        
+footer p{
+    display: block;
+    font-size: 12px; 
+    position: absolute; 
+    bottom: 5px; 
+    right: 50px; 
+    width: 1000px; 
+    text-align:right;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    padding:0;
+    float:left;
+}
+.logo img{
+    position:relative;
+    width:auto;
+    height:109px;
+    line-height:0;
+    text-decoration:none;
+    padding:0 0;
+    float:left;
+    top:0
+}
+@media (max-width:1200px){
+    .logo img{
+        height:80px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
+@media (max-width:768px){
+    .logo img{
+        height: 65px;
+    }
+        h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+        font-weight: 900;
+    }
+}
