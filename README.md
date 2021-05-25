@@ -15,14 +15,14 @@ This Repository is made for developers facing problem in choosing Gradients Colo
     For example, run this command inside your terminal:
 
     ```bash
-    git clone https://github.com/<your-github-username>/start-here-guidelines.git
+    git clone git@github.com:<your-github-username>/ColorPicker.git
     ```
 
     **Replace \<your-github-username\>!**
 3. Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
 
     ```bash
-    git remote add upstream https://github.com/zero-to-mastery/start-here-guidelines.git
+    git remote add upstream git@github.com:<your-github-username>/ColorPicker.git
     git pull upstream master
     ```
 6. Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
