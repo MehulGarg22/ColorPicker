@@ -1,9 +1,15 @@
+<img align="right" alt="Website Image" width="50%" height="100%" src="Color_Picker.png" />
+
 # Welcome
 This Repository is made for developers facing problem in choosing Gradients Color for their website, Blogs etc. Do Contribute to this repository if you feel something missing.
 <br>Best of Luck.
 <br>✨ Link: https://colorpiker.netlify.app/
 
-## Guideline to Get Started
+<br>
+
+
+
+# Guideline to Get Started
 1. On the [GitHub page for this repository](https://github.com/zero-to-mastery/start-here-guidelines), click on the Button "Fork".
 
    ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
@@ -45,6 +51,5 @@ This Repository is made for developers facing problem in choosing Gradients Colo
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
     Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-    
-# Preview
-<img align="left" alt="Website Image" width="100%" src="Color_Picker.png" />
+
+**Happy Learning 😄**
